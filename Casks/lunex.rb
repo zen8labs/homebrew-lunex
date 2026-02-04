@@ -1,7 +1,7 @@
 cask "lunex" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0-beta.2"
+  version "0.1.0-alpha.1"
   sha256 :no_check
 
   url "https://github.com/zen8labs/lunex/releases/download/#{version}/Lunex_#{version}_#{arch}.dmg"
